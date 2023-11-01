@@ -21,3 +21,7 @@
   justify-content: center;
   width: 100%;
 }
+.data {
+  text-wrap: wrap;
+  width: 700px;
+}
