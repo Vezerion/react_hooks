@@ -19,10 +19,10 @@ export function Navigation() {
             useCallback
             </NavLink>
             <NavLink to="/useContext">
-            useContext
+            useContext & useReducer
             </NavLink>
-            <NavLink to="/useReducer">
-            useReducer
+            <NavLink to="/custom">
+            custom hooks
             </NavLink>
         </div>
     )

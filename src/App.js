@@ -7,6 +7,7 @@ import { Ref } from "./components/useRef/useRef";
 import { Memo } from "./components/useMemo/useMemo";
 import { Callback } from "./components/useCallback/useCallback";
 import { Context } from "./components/useContext/useContext";
+import { Custom } from "./components/custom/custom";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
             <Route path='/useMemo' element={<Memo/>}/>
             <Route path='/useCallback' element={<Callback/>}/>
             <Route path='/useContext' element={<Context/>}/>
-            <Route path='/useReducer' />
+            <Route path='/custom' element={<Custom/>}/>
             <Route />
             <Route />
           </Routes>
